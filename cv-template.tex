@@ -1,0 +1,146 @@
+\documentclass[]{friggeri-cv}
+
+\begin{document}
+\header
+  {$firstName$ $middleName$ }
+  {$lastName$}
+  {$jobTitle$}
+
+
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{about}
+    \href{http://$website$}{$website$}
+    \href{mailto:$email$}{$email$}
+    ~
+    \# $cell$
+    $location$
+    \section{programming}
+    $for(tech.lang)$
+      $tech.lang$
+    $endfor$
+  % \section{programming}
+  %   JavaScript
+  %   (ES5, node.js)
+  %   Python, C, OCaml
+  %   CSS3 \& HTML5
+\end{aside}
+
+
+
+\section{education}
+\begin{entrylist}
+$for(edu)$
+  \entry
+  {$edu.year$}
+  {$edu.degree$}
+  {$edu.inst$: $edu.loc$}
+  $if(edu.thesis)$
+    {Thesis: \textit{$edu.thesis$.} Advisor: $edu.advisor$}
+  $endif$
+  $if(edu.minor)$
+    {$edu.dist$. Minor: $edu.minor$}
+  $endif$
+$endfor$
+\end{entrylist}
+
+
+
+\section{publications}
+\begin{entrylist}
+$for(pubs)$
+  \entry
+  {$pubs.label$}
+  {}
+  {}
+  {$pubs.pub$}
+$endfor$
+\end{entrylist}
+
+
+
+\section{presentations}
+\begin{entrylist}
+$for(presents)$
+  \entry
+  {$presents.label$}
+  {}
+  {}
+  {$presents.pres$}
+$endfor$
+\end{entrylist}
+
+
+
+\section{teaching experience}
+\begin{entrylist}
+$for(teach)$
+  \entry
+  {$teach.time$}
+  {$teach.title$}
+  {$teach.loc$}
+  {$teach.course$}
+  \setlength\parskip{0pt}
+  \begin{itemize}[noitemsep, leftmargin=0.2in]
+    $for(teach.descr)$
+      \item $teach.descr$
+    $endfor$
+  \end{itemize}
+  \setlength\parskip{12pt}
+$endfor$
+\end{entrylist}
+
+\section{professional experience}
+\begin{entrylist}
+$for(jobs)$
+  \entry
+  {$jobs.time$}
+  {$jobs.title$}
+  {$jobs.loc$}
+  {$jobs.comp$}
+  \setlength\parskip{0pt}
+  \begin{itemize}[noitemsep, leftmargin=0.2in]
+    $for(jobs.descr)$
+      \item $jobs.descr$
+    $endfor$
+  \end{itemize}
+  \setlength\parskip{12pt}
+$endfor$
+\end{entrylist}
+
+
+
+\section{awards \& fellowships}
+\begin{itemize}[noitemsep, leftmargin=0.6in]
+$for(awards)$
+  \item $awards$
+$endfor$
+\end{itemize}
+
+
+
+\section{service}
+\begin{itemize}[noitemsep, leftmargin=0.6in]
+$for(service)$
+  \item $service.title$: $service.org$, $service.time$ 
+$endfor$
+\end{itemize}
+
+
+
+\section{affiliations}
+\begin{itemize}[noitemsep, leftmargin=0.6in]
+$for(aff)$
+  \item $aff.org$, $aff.time$
+$endfor$
+\end{itemize}
+
+
+
+\vspace{0.2in}
+References available upon request.
+
+
+
+\end{document}
