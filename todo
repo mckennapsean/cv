@@ -1,0 +1,7 @@
+
+  - clean up styling for PDF
+  - change build system to python only
+  - github.com/tompollard/markdown-cv
+  - add travis CI build
+  - finish auto build and hosting for website
+
