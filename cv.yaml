@@ -81,15 +81,22 @@ presents:
 
 # teaching experience
 teach:
+- time: Fall 2017
+  title: "[**Introduction to Visualization**](http://dataviscourse.net/2016/)"
+  loc: Salt Lake City, UT
+  course: CS-6630, University of Utah
+  descr:
+  - crafted a lecture on visualization design and worksheets for guiding students
+  - mentored 13 students through the design process for their cumulative projects
 - time: Spring 2016
-  title: "[**Algorithms and Data Structures**](somesite)"
+  title: "[**Algorithms and Data Structures**](http://www.eng.utah.edu/~cs2420/)"
   loc: Salt Lake City, UT
   course: CS-2420, University of Utah
   descr:
   - teaching assistant and lecturer for an undergraduate course (175 students)
   - created and presented three lectures; designed and wrote a new final project
 - time: Fall 2013
-  title: "[**Introduction to Visualization**](http://www.sci.utah.edu/~miriah/cs6630/old/2013/)"
+  title: "[**Introduction to Visualization**](http://www.sci.utah.edu/~miriah/cs6630/)"
   loc: Salt Lake City, UT
   course: CS-6630, University of Utah
   descr:
