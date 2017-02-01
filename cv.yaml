@@ -81,7 +81,7 @@ presents:
 
 # teaching experience
 teach:
-- time: Fall 2017
+- time: Fall 2016
   title: "[**Introduction to Visualization**](http://dataviscourse.net/2016/)"
   loc: Salt Lake City, UT
   course: CS-6630, University of Utah
@@ -112,8 +112,8 @@ jobs:
   comp: Scientific Computing and Imaging Institute
   loc: Salt Lake City, UT
   descr:
-  - created a design process model geared for novice designers
-  - designed a new scatterplot for exploring correlation
+  - created a design process model geared for novice visualization designers
+  - employed a new scatterplot for exploring correlation of gene expression
 
 - time: "Jul '16 -- Sep '16"
   title: "**Research Assistant**"
@@ -121,7 +121,7 @@ jobs:
   loc: Redmond, WA
   descr:
   - developed an interactive technique for building scrolling, animated stories
-  - conducted an online study of story engagement based on animated transitions
+  - conducted an online study of story engagement using animated transitions
 
 - time: "Feb '15 -- Apr '15 & Jun '14 -- Aug '14"
   title: "**Research Assistant**"
@@ -282,14 +282,14 @@ aff:
 
 
 tech:
-#  os: windows, arch, mac
   lang:
-  - javascript (d3, jquery, css)
+  - javascript (es6, d3)
+  - html5 & css3
   - python
   - java
-  - c/c++
+  - c++
   - \LaTeX
-  - R
   - sql
+  - R
 
 ---
