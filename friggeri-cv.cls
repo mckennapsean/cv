@@ -26,6 +26,7 @@
 \definecolor{white}{RGB}{255,255,255}
 
 \definecolor{darkgray}{HTML}{333333}
+% \definecolor{darkgray}{HTML}{2C3236}
 \definecolor{gray}{HTML}{4D4D4D}
 \definecolor{lightgray}{HTML}{999999}
 
@@ -34,6 +35,8 @@
 \definecolor{purple}{HTML}{D3A4F9}
 \definecolor{red}{HTML}{FB4485}
 \definecolor{blue}{HTML}{6CE0F1}
+\definecolor{pink}{HTML}{FA44AA}
+\definecolor{darkpurple}{HTML}{674B8C}
 
 \ifdefined\@cv@print
   \colorlet{green}{gray}
@@ -45,10 +48,13 @@
   \colorlet{header}{gray}
 \else
   \colorlet{fillheader}{gray}
+  % \colorlet{fillheader}{darkgray}
   \colorlet{header}{white}
 \fi
 \colorlet{textcolor}{gray}
-\colorlet{headercolor}{gray}
+\colorlet{headercolor}{darkpurple}
+\colorlet{boldcolor}{gray}
+\colorlet{accentcolor}{pink}
 
 
 %%%%%%%%%
@@ -61,6 +67,8 @@
 
 \newfontfamily\bodyfont[]{Source Sans Pro}
 \newfontfamily\thinfont[]{Source Sans Pro ExtraLight}
+\newfontfamily\boldfont[]{Source Sans Pro Semibold}
+\newfontfamily\titlefont[]{Lora}
 \newfontfamily\headingfont[]{Lora Bold}
 
 \defaultfontfeatures{Mapping=tex-text}
@@ -116,7 +124,7 @@
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
       \fontsize{40pt}{72pt}\color{header}%
-      {\headingfont #1}
+      {\titlefont #1}
     };
     \node [anchor=north] at (name.south) {%
       \fontsize{14pt}{24pt}\color{header}%
@@ -136,21 +144,7 @@
 \newcounter{colorCounter}
 \def\@sectioncolor#1#2#3{%
   {%
-    \color{%
-      \ifcase\value{colorCounter}%
-        blue\or%
-        red\or%
-        orange\or%
-        green\or%
-        purple\or
-        blue\or
-        red\or
-        orange\or
-        green\or
-        purple\else%
-        headercolor
-        \fi%
-    } #1#2#3%
+    \color{accentcolor} #1#2#3%
   }%
   \stepcounter{colorCounter}%
 }
@@ -190,7 +184,7 @@
   \end{itemize}
 }
 
-\renewcommand{\bfseries}{\headingfont\color{headercolor}}
+\renewcommand{\bfseries}{\boldfont\color{boldcolor}}
 \newcommand{\entry}[4]{%
   \item[#1]
     \textbf{#2}%
