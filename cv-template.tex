@@ -88,11 +88,10 @@ $endfor$
 \section{professional experience}
 \begin{entrylist}
 $for(jobs)$
-  \entry
+  \entryalt
   {$jobs.time$}
-  {$jobs.title$}
-  {$jobs.loc$}
   {$jobs.comp$}
+  {$jobs.loc$}
   \setlength\parskip{0pt}
   \begin{itemize}[noitemsep, leftmargin=0.2in]
     $for(jobs.descr)$

@@ -192,6 +192,12 @@
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
     #4\vspace{\parsep}%
   }
+\newcommand{\entryalt}[3]{%
+  \item[#1]
+    \textbf{#2}%
+    \hfill%
+    {\footnotesize\addfontfeature{Color=lightgray} #3}%
+  }
 
 % old list environment
 % \newenvironment{entrylist}{%
