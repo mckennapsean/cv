@@ -61,7 +61,7 @@
 
 \newfontfamily\bodyfont[]{Source Sans Pro}
 \newfontfamily\thinfont[]{Source Sans Pro ExtraLight}
-\newfontfamily\headingfont[]{Source Sans Pro Semibold}
+\newfontfamily\headingfont[]{Lora Bold}
 
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[Mapping=tex-text, Color=textcolor]{Source Sans Pro ExtraLight}
