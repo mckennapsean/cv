@@ -24,11 +24,13 @@
 \RequirePackage{xcolor}
 
 \definecolor{white}{RGB}{255,255,255}
+\definecolor{black}{HTML}{000000}
 
 \definecolor{darkgray}{HTML}{333333}
 % \definecolor{darkgray}{HTML}{2C3236}
 \definecolor{gray}{HTML}{4D4D4D}
-\definecolor{lightgray}{HTML}{999999}
+\definecolor{lightgray}{HTML}{555555}
+% \definecolor{lightgray}{HTML}{999999}
 
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
@@ -51,7 +53,7 @@
   % \colorlet{fillheader}{darkgray}
   \colorlet{header}{white}
 \fi
-\colorlet{textcolor}{gray}
+\colorlet{textcolor}{black}
 \colorlet{headercolor}{darkpurple}
 \colorlet{boldcolor}{gray}
 \colorlet{accentcolor}{pink}
