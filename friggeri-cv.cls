@@ -65,7 +65,8 @@
 
 %%% modified by Sean McKenna for own use
 \RequirePackage[quiet]{fontspec}
-\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+% \RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+\RequirePackage[math-style=TeX]{unicode-math}
 
 \newfontfamily\bodyfont[]{Source Sans Pro}
 \newfontfamily\thinfont[]{Source Sans Pro ExtraLight}
@@ -223,23 +224,23 @@
 % Side block %
 %%%%%%%%%%%%%%
 
-\RequirePackage[absolute,overlay]{textpos}
-\setlength{\TPHorizModule}{1cm}
-\setlength{\TPVertModule}{1cm}
-\newenvironment{aside}{%
-  \let\oldsection\section
-  \renewcommand{\section}[1]{
-    \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
-  }
-  \begin{textblock}{3.6}(1.5, 4.33)
-  \begin{flushright}
-  \obeycr
-}{%
-  \restorecr
-  \end{flushright}
-  \end{textblock}
-  \let\section\oldsection
-}
+% \RequirePackage[absolute,overlay]{textpos}
+% \setlength{\TPHorizModule}{1cm}
+% \setlength{\TPVertModule}{1cm}
+% \newenvironment{aside}{%
+%   \let\oldsection\section
+%   \renewcommand{\section}[1]{
+%     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
+%   }
+%   \begin{textblock}{3.6}(1.5, 4.33)
+%   \begin{flushright}
+%   \obeycr
+% }{%
+%   \restorecr
+%   \end{flushright}
+%   \end{textblock}
+%   \let\section\oldsection
+% }
 
 %%%%%%%%%%%%%%%%
 % Bibliography %
@@ -356,5 +357,6 @@
 % Other tweaks %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
+% \RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
+\RequirePackage[left=1in,top=1in,right=1in,bottom=1in,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
