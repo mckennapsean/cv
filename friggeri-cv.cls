@@ -167,7 +167,7 @@
 % }
 
 \renewcommand{\section}[1]{
-  \par\vspace{\parskip}
+  \par%\vspace{\parskip}
   {%
     \LARGE\headingfont\color{headercolor}%
     #1
@@ -226,6 +226,7 @@
     \vspace{\parsep}%
   }
 \newcommand{\entrypub}[2]{
+  \vspace{-0.05in}
   \item[]
     \textbf{#1}
     \hfill
