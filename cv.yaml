@@ -119,7 +119,7 @@ teach:
   course: University of Utah, CS-2420
   descr:
   - Presented 3 lectures for an undergraduate course (175 students).
-  - Wrote a new final project using real-world data and grading scripts (Python, Java).
+  - Conceived a final project, wrote the description, and created test cases using Python and Java.
 - time: Fall 2013
   title: "[**Introduction to Visualization**](http://www.sci.utah.edu/~miriah/cs6630/)"
   loc: Salt Lake City, UT
