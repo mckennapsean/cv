@@ -1,33 +1,25 @@
 
   - add profile picture? should I?
-  - is font too small? color too light?
-  - should I keep a skills list?
-  - should I have a goal?
-  - should work experience have more about roles & skills? short responsibilities list, main contributions, highlight skills in the text rather than elsewhere...
-  - am I fine removing job titles? cleaner?
-  - should I add open-source coding projects? ones I have released or contributed to? e.g. include side projects, my role, skills, and contributions
-
-  - issue with teaching assistant / title instead of verb for first two teaching experiences
-  - margins issue
-  - header printing issue
-  - alignment issue across sections
-  - fix boxing and alignment with other sections
-  - bolding / issue with ieee formatting
-  - remove widows
-  - remove two columns
-  - fix double-date issue?
-  - bold subsections?
   - should thesis be italicized? quotes?
-  - are presentations just posters?
+  - fix education stuff
   - add in about-me info somewhere
-  - add in photo
+  - issue with teaching assistant / title instead of verb for first two teaching experiences
+  - fix double-date issue?
   - fix color issue, perhaps a line with color?
+
+
+  - cover letter !
+
 
   - clean up styling for PDF
   - make file don't quite work, improve building
   - build for resume & for cv?
-  - match website more, tweak colors, fonts, sizes
-  - keep rotating colors or constant? any other tweaks?
-  
 
-  - cover letter !
+  - transfer skills to job / work experiences
+  - should work experience have more about roles & skills? short responsibilities list, main contributions, highlight skills in the text rather than elsewhere...
+
+  - should I add open-source coding projects? ones I have released or contributed to? e.g. include side projects, my role, skills, and contributions
+
+
+  - header printing issue
+  - remove widows
