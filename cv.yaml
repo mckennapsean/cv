@@ -118,15 +118,15 @@ teach:
   loc: Salt Lake City, UT
   course: University of Utah, CS-2420
   descr:
-  - Presented three lectures for an undergraduate course (175 students).
+  - Presented 3 lectures for an undergraduate course (175 students).
   - Wrote a new final project using real-world data and grading scripts (Python, Java).
 - time: Fall 2013
   title: "[**Introduction to Visualization**](http://www.sci.utah.edu/~miriah/cs6630/)"
   loc: Salt Lake City, UT
   course: University of Utah, CS-6630
   descr:
-  - Presented five lectures for a graduate course (60 students).
-  - Adapted and rewrote several assignments to use Java and Processing library.
+  - Presented 5 lectures for a graduate course (60 students).
+  - Rewrote 2 assignments that use Tableau, Java, and the Processing library.
 
 
 
@@ -163,7 +163,7 @@ jobs:
   loc: Baltimore, MD
   descr:
   - Contributed a web query interface (jQuery, SQL) to a Hubble Space Telescope archival research project.
-  - Collaborated with nine others to develop a visualization of user results for a citizen science project.
+  - Collaborated with 9 others to develop a visualization of user results for a citizen science project.
 
 #- time: "Jun '10 -- Aug '10"
 #  title: "**Research Assistant**"
