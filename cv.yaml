@@ -111,22 +111,22 @@ teach:
   loc: Salt Lake City, UT
   course: University of Utah, CS-6630
   descr:
-  - created and presented a lecture on the visualization design process
-  - mentored 13 students through the design process for their cumulative projects
+  - created and presented a lecture for a graduate course (65 students)
+  - mentored 13 students through the design process of their cumulative projects
 - time: Spring 2016
   title: "[**Algorithms and Data Structures**](http://www.eng.utah.edu/~cs2420/)"
   loc: Salt Lake City, UT
   course: University of Utah, CS-2420
   descr:
-  - created and presented three lectures for an undergraduate course (175 students)
-  - designed and wrote a new final project for students to implement Dijkstra's algorithm
+  - presented three lectures for an undergraduate course (175 students)
+  - wrote a new final project using real-world data and grading scripts (Python, Java)
 - time: Fall 2013
   title: "[**Introduction to Visualization**](http://www.sci.utah.edu/~miriah/cs6630/)"
   loc: Salt Lake City, UT
   course: University of Utah, CS-6630
   descr:
-  - created and presented five lectures for a graduate course (60 students)
-  - adapted and rewrote several assignments to a new language
+  - presented five lectures for a graduate course (60 students)
+  - adapted and rewrote several assignments to use Java and Processing library
 
 
 
