@@ -112,7 +112,6 @@ teach:
   course: University of Utah, CS-6630
   descr:
   - created and presented a lecture on the visualization design process
-  # - crafted worksheets to help guide students through the design process
   - mentored 13 students through the design process for their cumulative projects
 - time: Spring 2016
   title: "[**Algorithms and Data Structures**](http://www.eng.utah.edu/~cs2420/)"
@@ -138,32 +137,33 @@ jobs:
   comp: Scientific Computing and Imaging Institute
   loc: Salt Lake City, UT
   descr:
-  - created a design process model for novice visualization designers
-  - employed a new scatterplot for exploring correlation of gene expression
+  - crafted and evaluated worksheets to guide students through the visualization design process
+  - developed a scatterplot technique (R, C++, OpenGL) for exploring correlation of large datasets
 
 - time: "Jul '16 -- Sep '16"
   title: "**Research Assistant**"
   comp: "Microsoft Research"
   loc: Redmond, WA
   descr:
-  - developed an interactive technique for building scrolling, animated stories
-  - conducted an online study of story engagement using animated transitions
+  - built a Javascript library (ES6, D3) to interactively create scrolling, animated visualizations
+  - conducted a study on Amazon Mechanical Turk to investigate engagement of visualization stories
 
 - time: "Jun '14 -- Aug '14 & Feb '15 -- Apr '15"
   title: "**Research Assistant**"
   comp: MIT Lincoln Laboratory
   loc: Lexington, MA
   descr:
-  - designed a new cyber dashboard for visualizing network activity
-  - evaluated the design of the dashboard with network analysts and managers
+  - created a web dashboard (D3, Bootstrap) to visualize patterns in network activity
+  - implemented a backend (Python, Bash) for updating the dashboard daily using JSON
+  # - performed a usability evaluation of the dashboard with network analysts and managers
 
 - time: "Jun '11 -- Aug '11"
   title: "**Research Assistant**"
   comp: NASA's Space Telescope Science Institute
   loc: Baltimore, MD
   descr:
-  - contributed to a Hubble Space Telescope archival research project
-  - collaborated with nine others to support a citizen science project
+  - contributed a web query interface (jQuery, SQL) to a Hubble Space Telescope archival research project
+  - collaborated with nine others to develop a visualization of user results for a citizen science project
 
 #- time: "Jun '10 -- Aug '10"
 #  title: "**Research Assistant**"
