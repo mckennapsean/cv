@@ -125,7 +125,9 @@ $endfor$
 \section{awards \& fellowships}
 \begin{itemize}[noitemsep, leftmargin=0.55in]
 $for(awards)$
-  \item $awards$
+  \entryitem
+  {$awards.title$}
+  {$awards.time$}
 $endfor$
 \end{itemize}
 
@@ -134,7 +136,9 @@ $endfor$
 \section{service}
 \begin{itemize}[noitemsep, leftmargin=0.55in]
 $for(service)$
-  \item $service.title$: $service.org$, $service.time$ 
+  \entryitem
+  {$service.title$: $service.org$}
+  {$service.time$}
 $endfor$
 \end{itemize}
 

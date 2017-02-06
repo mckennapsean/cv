@@ -246,21 +246,36 @@ jobs:
 
 # awards and fellowships
 awards:
-- "Winner of Teapot Rendering Competition: University of Utah, 2013"
-- "Winner of the second challenge at the Human Brain Mapping Hackathon: Allen Institute for Brain Science & Amazon Web Services, 2013"
-- "Wayne Brown Fellowship ($30,000): University of Utah, 2012 -- 2014"
-- "Phi Beta Kappa: Cornell College, 2011"
-#- "Summa Cum Laude: Cornell College, 2012"
-#- "Outstanding Physics Major Award: Cornell College, 2011"
-#- "Dean's List of Highest Honors: Cornell College, 2010 -- 2012"
-#- "Ed Hill Mathematics Scholar: Cornell College, 2009"
-#- "First Year Computer Science Student Achievement Award: Cornell College,# 2009"
-#- "Academic Trustee Scholarship ($60,000): Cornell College: 2008 -- 2012"
-#- "National AP Scholar Award: College Board, 2008"
-#- "Science Achievement Scholarship ($200): D.C. Everest Senior High, 2008"
-#- "Drama Boosters Scholarship ($850): D.C. Everest Senior High, 2008"
-#- "Wausau Community Theatre Star Award, 2008"
-#- "National Honors Society: D.C. Everest Senior High, 2008"
+- title: "Winner of Teapot Rendering Competition: University of Utah"
+  time: 2013
+- title: "Winner of the second challenge at the Human Brain Mapping Hackathon: Allen Institute for Brain Science & Amazon Web Services"
+  time: 2013
+- title: "Wayne Brown Fellowship ($30,000): University of Utah"
+  time: "2012 -- 2014"
+- title: "Phi Beta Kappa: Cornell College"
+  time: 2011
+#- title: "Summa Cum Laude: Cornell College"
+#  time: 2012
+#- title: "Outstanding Physics Major Award: Cornell College"
+#  time: 2011
+#- title: "Dean's List of Highest Honors: Cornell College"
+#  time: "2010 -- 2012"
+#- title: "Ed Hill Mathematics Scholar: Cornell College"
+#  time: 2009
+#- title: "First Year Computer Science Student Achievement Award: Cornell College"
+#  time: 2009
+#- title: "Academic Trustee Scholarship ($60,000): Cornell College""
+#  time: "2008 -- 2012"
+#- title: "National AP Scholar Award: College Board"
+#  time: 2008
+#- title: "Science Achievement Scholarship ($200): D.C. Everest Senior High"
+#  time: 2008
+#- title: "Drama Boosters Scholarship ($850): D.C. Everest Senior High"
+#  time: 2008
+#- title: "Wausau Community Theatre Star Award"
+#  time: 2008
+#- title: "National Honors Society: D.C. Everest Senior High"
+#  time: 2008
 
 
 

@@ -232,6 +232,10 @@
     {\footnotesize\addfontfeature{Color=lightgray} #2}\\%
     % \vspace{\parsep}%
 }
+\newcommand{\entryitem}[2]{
+  \item #1 \hfill
+  {\footnotesize\addfontfeature{Color=lightgray} #2}
+}
 
 % old list environment
 % \newenvironment{entrylist}{%
