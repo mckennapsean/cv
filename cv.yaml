@@ -10,6 +10,16 @@ location: Salt Lake City, UT
 
 
 
+#goal:
+#- design and build usable tools and toolkits for solving real world problems using data visualization
+
+
+
+#interest:
+#- information visualization, user-centered design, user interfaces, human-computer interaction, web toolkits, animated transitions, visual analytics, design methodology
+
+
+
 # educational background
 edu:
 - year: 2012 -- 2017
@@ -29,105 +39,16 @@ edu:
 
 
 
-# journal publications
-jpubs:
-
-- title: "[BubbleNet: A Cyber Security Dashboard for Visualizing Patterns](http://mckennapsean.com/projects/bubble-net/)"
-  bibl: "S. McKenna, D. Staheli, C. Fulcher, M. Meyer. [*Computer Graphics Forum*](http://onlinelibrary.wiley.com/doi/10.1111/cgf.12904/full), 35(3):281--290."
-  year: 2016
-
-- title: "[s-CorrPlot: An Interactive Scatterplot for Exploring Correlation](http://mckennapsean.com/projects/s-corrplot/)"
-  bibl: "S. McKenna, M. Meyer, C. Gregg, S. Gerber. [*Journal of Computational and Graphical Statistics*](http://www.tandfonline.com/doi/abs/10.1080/10618600.2015.1021926), 25(2):445--463."
-  year: 2016
-
-- title: "[Design Activity Framework for Visualization Design](http://mckennapsean.com/projects/design-activity-framework/)"
-  bibl: "S. McKenna, D. Mazur, J. Agutter, M. Meyer. [*IEEE Transactions on Visualization and Computer Graphics (Proceedings of InfoVis)*](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6876000&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6876000), 20(12):2191--2200."
-  year: 2014
-
-
-# refereed conference publications
-cpubs:
-
-- title: "[Unlocking User-Centered Design Methods for Building Cyber Security Visualizations](http://mckennapsean.com/projects/vizsec-design-methods/paper.pdf)"
-  bibl: "S. McKenna, D. Staheli, M. Meyer. *Proceedings of the Twelfth International Symposium on Visualization for Cyber Security (VizSec)*."
-  year: 2015
-
-- title: "[Visualization Evaluation for Cyber Security: Trends and Future Directions](http://dl.acm.org/citation.cfm?id=2671492&dl=ACM&coll=DL&CFID=668429909&CFTOKEN=38032718)"
-  bibl: "D. Staheli, T. Yu, J. Crouser, S. Damodaran, K. Nam, D. O'Gwynn, S. McKenna, L. Harrison. *Proceedings of the Eleventh International Symposium on Visualization for Cyber Security (VizSec)*."
-  year: 2014
-
-
-# non-refereed publications
-#npubs:
-#- title: "Quantum Information Processing through Liquid NMR"
-#  bibl: "S. McKenna, J. Klingner, S. Wood. *Experimental Physics Report*."
-#  year: 2011
-
-
-# in-progress publications
-ipubs:
-
-- title: "Narrative Flow: Factors Shaping Data Story Consumption Experiences"
-  bibl: "S. McKenna, N.H. Riche, B. Lee, J. Boy, M. Meyer."
-
-- title: "Worksheets for Guiding Novice Students through the Visualization Design Process"
-  bibl: "S. McKenna, A. Lex, M. Meyer."
-
-
-
-# all presentations (just posters for now)
-presents:
-
-# poster presentations
-- title: "[s-CorrPlot: Encoding and Exploring Correlation](http://mckennapsean.com/projects/s-corrplot/poster.png)"
-  bibl: "S. McKenna, M. Meyer, C. Gregg, S. Gerber. *IEEE VIS: InfoVis*."
-  year: 2014
-
-- title: "[Designing STAR: A Cyber Dashboard Prototype](http://mckennapsean.com/projects/cybersecurity-dashboard/poster.png)"
-  bibl: "S. McKenna. *International Symposium on Visualization for Cyber Security (VizSec)*."
-  year: 2014
-
-- title: "[compariSeq: Rethinking Sequence Logos](http://mckennapsean.com/projects/compariseq/)"
-  bibl: "S. McKenna, P. Quinan, A. Bigelow. *BioVis Redesign Contest*."
-  year: 2013
-
-#- title: "Envisioning an Online Learning Environment: Integrating Algorithm Visualizations with JGIVE"
-#  bibl: "S. McKenna, D. Adrian, N. Decker. *Cornell College Symposium*."
-#  year: 2011
-
-
-
-# tutorials (could combine with above to make presentations)
-#tutorials:
-#- title: "[Git Tutorial](https://docs.google.com/presentation/d/1O1e1MABPfBhCPeA0UUem4__L-zRl00WZCt_jwU0zZ4M/edit?usp=sharing)"
-#  bibl: "S. McKenna, A. Bigelow, S. Quinan, E. Kerzner. SCI Institute Visualization Seminar."
-#  year: 2014
-
-
-
-# teaching experience
-teach:
-- time: Fall 2016
-  title: "[Introduction to Visualization](http://dataviscourse.net/2016/)"
-  loc: Salt Lake City, UT
-  course: University of Utah, CS-6630
-  descr:
-  - Created and presented a lecture for a graduate course (65 students).
-  - Mentored 13 students through the design process of their cumulative projects.
-- time: Spring 2016
-  title: "[Algorithms and Data Structures](http://www.eng.utah.edu/~cs2420/)"
-  loc: Salt Lake City, UT
-  course: University of Utah, CS-2420
-  descr:
-  - Presented 3 lectures for an undergraduate course (175 students).
-  - Conceived a final project, wrote the description, and created test cases using Python and Java.
-- time: Fall 2013
-  title: "[Introduction to Visualization](http://www.sci.utah.edu/~miriah/cs6630/)"
-  loc: Salt Lake City, UT
-  course: University of Utah, CS-6630
-  descr:
-  - Presented 5 lectures for a graduate course (60 students).
-  - Rewrote 2 assignments that use Tableau, Java, and the Processing library.
+tech:
+  lang:
+  - Javascript (ES6, D3)
+  - HTML5 & CSS3
+  - Python
+  - Java
+  - C++
+  - \LaTeX
+  - SQL
+  - R
 
 
 
@@ -245,6 +166,32 @@ jobs:
 
 
 
+# teaching experience
+teach:
+- time: Fall 2016
+  title: "[Introduction to Visualization](http://dataviscourse.net/2016/)"
+  loc: Salt Lake City, UT
+  course: University of Utah, CS-6630
+  descr:
+  - Created and presented a lecture for a graduate course (65 students).
+  - Mentored 13 students through the design process of their cumulative projects.
+- time: Spring 2016
+  title: "[Algorithms and Data Structures](http://www.eng.utah.edu/~cs2420/)"
+  loc: Salt Lake City, UT
+  course: University of Utah, CS-2420
+  descr:
+  - Presented 3 lectures for an undergraduate course (175 students).
+  - Conceived a final project, wrote the description, and created test cases using Python and Java.
+- time: Fall 2013
+  title: "[Introduction to Visualization](http://www.sci.utah.edu/~miriah/cs6630/)"
+  loc: Salt Lake City, UT
+  course: University of Utah, CS-6630
+  descr:
+  - Presented 5 lectures for a graduate course (60 students).
+  - Rewrote 2 assignments that use Tableau, Java, and the Processing library.
+
+
+
 # awards and fellowships
 awards:
 - title: "Winner of Teapot Rendering Competition: University of Utah"
@@ -313,25 +260,78 @@ aff:
 
 
 
-#goal:
-#- design and build usable tools and toolkits for solving real world problems using data visualization
+# journal publications
+jpubs:
+
+- title: "[BubbleNet: A Cyber Security Dashboard for Visualizing Patterns](http://mckennapsean.com/projects/bubble-net/)"
+  bibl: "S. McKenna, D. Staheli, C. Fulcher, M. Meyer. [*Computer Graphics Forum*](http://onlinelibrary.wiley.com/doi/10.1111/cgf.12904/full), 35(3):281--290."
+  year: 2016
+
+- title: "[s-CorrPlot: An Interactive Scatterplot for Exploring Correlation](http://mckennapsean.com/projects/s-corrplot/)"
+  bibl: "S. McKenna, M. Meyer, C. Gregg, S. Gerber. [*Journal of Computational and Graphical Statistics*](http://www.tandfonline.com/doi/abs/10.1080/10618600.2015.1021926), 25(2):445--463."
+  year: 2016
+
+- title: "[Design Activity Framework for Visualization Design](http://mckennapsean.com/projects/design-activity-framework/)"
+  bibl: "S. McKenna, D. Mazur, J. Agutter, M. Meyer. [*IEEE Transactions on Visualization and Computer Graphics (Proceedings of InfoVis)*](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6876000&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6876000), 20(12):2191--2200."
+  year: 2014
+
+
+# refereed conference publications
+cpubs:
+
+- title: "[Unlocking User-Centered Design Methods for Building Cyber Security Visualizations](http://mckennapsean.com/projects/vizsec-design-methods/paper.pdf)"
+  bibl: "S. McKenna, D. Staheli, M. Meyer. *Proceedings of the Twelfth International Symposium on Visualization for Cyber Security (VizSec)*."
+  year: 2015
+
+- title: "[Visualization Evaluation for Cyber Security: Trends and Future Directions](http://dl.acm.org/citation.cfm?id=2671492&dl=ACM&coll=DL&CFID=668429909&CFTOKEN=38032718)"
+  bibl: "D. Staheli, T. Yu, J. Crouser, S. Damodaran, K. Nam, D. O'Gwynn, S. McKenna, L. Harrison. *Proceedings of the Eleventh International Symposium on Visualization for Cyber Security (VizSec)*."
+  year: 2014
+
+
+# non-refereed publications
+#npubs:
+#- title: "Quantum Information Processing through Liquid NMR"
+#  bibl: "S. McKenna, J. Klingner, S. Wood. *Experimental Physics Report*."
+#  year: 2011
+
+
+# in-progress publications
+ipubs:
+
+- title: "Narrative Flow: Factors Shaping Data Story Consumption Experiences"
+  bibl: "S. McKenna, N.H. Riche, B. Lee, J. Boy, M. Meyer."
+
+- title: "Worksheets for Guiding Novice Students through the Visualization Design Process"
+  bibl: "S. McKenna, A. Lex, M. Meyer."
 
 
 
-#interests:
-#- information visualization, user-centered design, user interfaces, human-computer interaction, web toolkits, animated transitions, visual analytics, design methodology
+# all presentations (just posters for now)
+presents:
+
+# poster presentations
+- title: "[s-CorrPlot: Encoding and Exploring Correlation](http://mckennapsean.com/projects/s-corrplot/poster.png)"
+  bibl: "S. McKenna, M. Meyer, C. Gregg, S. Gerber. *IEEE VIS: InfoVis*."
+  year: 2014
+
+- title: "[Designing STAR: A Cyber Dashboard Prototype](http://mckennapsean.com/projects/cybersecurity-dashboard/poster.png)"
+  bibl: "S. McKenna. *International Symposium on Visualization for Cyber Security (VizSec)*."
+  year: 2014
+
+- title: "[compariSeq: Rethinking Sequence Logos](http://mckennapsean.com/projects/compariseq/)"
+  bibl: "S. McKenna, P. Quinan, A. Bigelow. *BioVis Redesign Contest*."
+  year: 2013
+
+#- title: "Envisioning an Online Learning Environment: Integrating Algorithm Visualizations with JGIVE"
+#  bibl: "S. McKenna, D. Adrian, N. Decker. *Cornell College Symposium*."
+#  year: 2011
 
 
 
-tech:
-  lang:
-  - Javascript (ES6, D3)
-  - HTML5 & CSS3
-  - Python
-  - Java
-  - C++
-  - \LaTeX
-  - SQL
-  - R
+# tutorials (could combine with above to make presentations)
+#tutorials:
+#- title: "[Git Tutorial](https://docs.google.com/presentation/d/1O1e1MABPfBhCPeA0UUem4__L-zRl00WZCt_jwU0zZ4M/edit?usp=sharing)"
+#  bibl: "S. McKenna, A. Bigelow, S. Quinan, E. Kerzner. SCI Institute Visualization Seminar."
+#  year: 2014
 
 ---
