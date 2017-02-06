@@ -95,21 +95,11 @@
 
 \renewcommand{\section}[1]{
   \par\vspace{\parskip}
-  {%
+  {
+    \vspace{0.09in}
     \LARGE\headingfont\color{headercolor}%
     #1
-    \begingroup
-      \color{lightgray}
-      \par \dimen0=\prevdepth
-      \kern \dimexpr 3pt-\prevdepth
-      \hrule width \linewidth height 0.35mm
-      \prevdepth=\dimen0
-      \kern \dimexpr \prevdepth-3pt-.4pt \relax
-    \endgroup
-    % \vspace{0.1cm}
-    % \LARGE\headingfont\color{headercolor}%
-    % #1
-    % \vspace{-0.1cm}
+    \vspace{-0.09in}
   }
   \par\vspace{\parskip}
 }
