@@ -86,7 +86,8 @@ teach:
   loc: Salt Lake City, UT
   course: CS-6630, University of Utah
   descr:
-  - crafted a lecture on visualization design and worksheets for guiding students
+  - created and presented a lecture on the visualization design process
+  - crafted worksheets to help guide students through the design process
   - mentored 13 students through the design process for their cumulative projects
 - time: Spring 2016
   title: "[**Algorithms and Data Structures**](http://www.eng.utah.edu/~cs2420/)"
@@ -112,7 +113,7 @@ jobs:
   comp: Scientific Computing and Imaging Institute
   loc: Salt Lake City, UT
   descr:
-  - created a design process model geared for novice visualization designers
+  - created a design process model for novice visualization designers
   - employed a new scatterplot for exploring correlation of gene expression
 
 - time: "Jul '16 -- Sep '16"
