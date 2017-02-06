@@ -54,7 +54,7 @@
 \newfontfamily\headingfont[]{Lora Bold}
 
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Mapping=tex-text, Color=textcolor]{Source Sans Pro ExtraLight}
+\setmainfont[Mapping=tex-text, Color=textcolor]{Source Sans Pro Light}
 \setmathfont{Source Code Pro}
 
 
@@ -135,32 +135,34 @@
 
 \renewcommand{\bfseries}{\boldfont\color{boldcolor}}
 \newcommand{\entry}[4]{%
+  \vspace{-0.075in}
   \item[]
     \textbf{#2}%
     \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #1}\\%
+    {\footnotesize #1}\\%
     #4%
     \hfill%
     \vspace{\parsep}%
   }
 \newcommand{\entryalt}[3]{%
+  \vspace{-0.075in}
   \item[]
     \textbf{#2}%
     \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #1}%
+    {\footnotesize #1}%
     \vspace{\parsep}%
   }
 \newcommand{\entrypub}[2]{
-  \vspace{-0.05in}
+  \vspace{-0.09in}
   \item[]
     \textbf{#1}
     \hfill
-    {\footnotesize\addfontfeature{Color=lightgray} #2}\\%
+    {\footnotesize #2}\\%
     % \vspace{\parsep}%
 }
 \newcommand{\entryitem}[2]{
   \item #1 \hfill
-  {\footnotesize\addfontfeature{Color=lightgray} #2}
+  {\footnotesize #2}
 }
 
 % old list environment
