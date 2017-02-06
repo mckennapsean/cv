@@ -1,14 +1,10 @@
-
   - issue with teaching assistant / title instead of verb for first two teaching experiences
-  - fix double-date issue?
 
+  - make file doesn't quite work, improve build process
+  - build for resume & for cv?
 
   - cover letter !
 
-
-  - clean up styling for PDF
-  - make file don't quite work, improve building
-  - build for resume & for cv?
 
   - transfer skills to job / work experiences
   - should work experience have more about roles & skills? short responsibilities list, main contributions, highlight skills in the text rather than elsewhere...
@@ -18,3 +14,6 @@
 
   - header printing issue
   - remove widows
+
+
+  - clean up style/format & code
