@@ -111,22 +111,22 @@ teach:
   loc: Salt Lake City, UT
   course: University of Utah, CS-6630
   descr:
-  - created and presented a lecture for a graduate course (65 students)
-  - mentored 13 students through the design process of their cumulative projects
+  - Created and presented a lecture for a graduate course (65 students).
+  - Mentored 13 students through the design process of their cumulative projects.
 - time: Spring 2016
   title: "[**Algorithms and Data Structures**](http://www.eng.utah.edu/~cs2420/)"
   loc: Salt Lake City, UT
   course: University of Utah, CS-2420
   descr:
-  - presented three lectures for an undergraduate course (175 students)
-  - wrote a new final project using real-world data and grading scripts (Python, Java)
+  - Presented three lectures for an undergraduate course (175 students).
+  - Wrote a new final project using real-world data and grading scripts (Python, Java).
 - time: Fall 2013
   title: "[**Introduction to Visualization**](http://www.sci.utah.edu/~miriah/cs6630/)"
   loc: Salt Lake City, UT
   course: University of Utah, CS-6630
   descr:
-  - presented five lectures for a graduate course (60 students)
-  - adapted and rewrote several assignments to use Java and Processing library
+  - Presented five lectures for a graduate course (60 students).
+  - Adapted and rewrote several assignments to use Java and Processing library.
 
 
 
@@ -137,110 +137,110 @@ jobs:
   comp: Scientific Computing and Imaging Institute
   loc: Salt Lake City, UT
   descr:
-  - crafted and evaluated worksheets to guide students through the visualization design process
-  - developed a scatterplot technique (R, C++, OpenGL) for exploring correlation of large datasets
+  - Crafted and evaluated worksheets to guide students through the visualization design process.
+  - Developed a scatterplot technique (R, C++, OpenGL) for exploring correlation of large datasets.
 
 - time: "Summer 2016" #"Jul '16 -- Sep '16"
   title: "**Research Assistant**"
   comp: "Microsoft Research"
   loc: Redmond, WA
   descr:
-  - built a Javascript library (ES6, D3) to interactively create scrolling, animated visualizations
-  - conducted a study on Amazon Mechanical Turk to investigate engagement of visualization stories
+  - Built a Javascript library (ES6, D3) to interactively create scrolling, animated visualizations.
+  - Conducted a study on Amazon Mechanical Turk to investigate engagement of visualization stories.
 
 - time: "Summer 2014 & Spring 2015" #"Jun '14 -- Aug '14 & Feb '15 -- Apr '15"
   title: "**Research Assistant**"
   comp: MIT Lincoln Laboratory
   loc: Lexington, MA
   descr:
-  - created a web dashboard (D3, Bootstrap) to visualize patterns in network activity
-  - implemented a backend (Python, Bash) for updating the dashboard daily using JSON
-  # - performed a usability evaluation of the dashboard with network analysts and managers
+  - Created a web dashboard (D3, Bootstrap) to visualize patterns in network activity.
+  - Implemented a backend (Python, Bash) for updating the dashboard daily using JSON.
+  # - Performed a usability evaluation of the dashboard with network analysts and managers.
 
 - time: "Summer 2011" #"Jun '11 -- Aug '11"
   title: "**Research Assistant**"
   comp: NASA's Space Telescope Science Institute
   loc: Baltimore, MD
   descr:
-  - contributed a web query interface (jQuery, SQL) to a Hubble Space Telescope archival research project
-  - collaborated with nine others to develop a visualization of user results for a citizen science project
+  - Contributed a web query interface (jQuery, SQL) to a Hubble Space Telescope archival research project.
+  - Collaborated with nine others to develop a visualization of user results for a citizen science project.
 
 #- time: "Jun '10 -- Aug '10"
 #  title: "**Research Assistant**"
 #  comp: University of Wisconsin-Oshkosh
 #  loc: Oshkosh, WI
 #  descr: 
-#  - developed a system within a group on Drupal, a CMS
-#  - designed a website to facilitate teaching algorithms visually
+#  - Developed a system within a group on Drupal, a CMS.
+#  - Designed a website to facilitate teaching algorithms visually.
 
 #- time: "Feb '11 -- Feb '12"
 #  title: "**Chair of Appropriations**"
 #  comp: Cornell College Student Senate
 #  loc: Mount Vernon, IA
 #  descr:
-#  - managed and coordinated a budget over $250,000 for 1,200 students
-#  - coordinated a substantial rewrite of the financial by-laws
-#  - optimized old workflows using new technologies
+#  - Managed and coordinated a budget over $250,000 for 1,200 students.
+#  - Coordinated a substantial rewrite of the financial by-laws.
+#  - Optimized old workflows using new technologies.
 
 #- time: "Jan '12 -- Aug '12"
 #  title: "**Stage Manager for *Legally Blonde***"
 #  comp: Everest Academy for the Arts
 #  loc: Wausau, WI
 #  descr:
-#  - coordinated and guided a cast and crew of 60
-#  - designed the logo for all production-related materials
-#  - managed both the technical crew and called their cues for the show
+#  - Coordinated and guided a cast and crew of 60.
+#  - Designed the logo for all production-related materials.
+#  - Managed both the technical crew and called their cues for the show.
 
 #- time: "Aug '11 -- May '12"
 #  title: "**IT Support Technician**"
 #  comp: Cornell College
 #  loc: Mount Vernon, IA
 #  descr:
-#  - maintained computer hardware and software on a ~2000 computer network
-#  - conducted both computer hardware repairs and anti-virus removal
+#  - Maintained computer hardware and software on a ~2000 computer network.
+#  - Conducted both computer hardware repairs and anti-virus removal.
 
 #- time: "Aug '10 -- May '11"
 #  title: "**Resident Assistant**"
 #  comp: Cornell College Residence Life
 #  loc: Mount Vernon, IA
 #  descr:
-#  - responded to immediate and emergent concerns of residents
-#  - provided assistance and programs for a building of 150 upperclassmen
+#  - Responded to immediate and emergent concerns of residents.
+#  - Provided assistance and programs for a building of 150 upperclassmen.
 
 #- time: "May '10 -- May '12"
 #  title: "**Station Manager**"
 #  comp: Cornell College KRNL 89.7 FM
 #  loc: Mount Vernon, IA
 #  descr:
-#  - redesigned the hardware and software to create a more effective webcast
-#  - managed a paid staff of ten students and coordinated forty DJs
-#  - handled all financial transactions of the station's $15,000 annual budget
+#  - Redesigned the hardware and software to create a more effective webcast.
+#  - Managed a paid staff of ten students and coordinated forty DJs.
+#  - Handled all financial transactions of the station's $15,000 annual budget.
 
 #- time: "Oct '08 -- Mar '09"
 #  title: "**Co-Editor-in-Chief**"
 #  comp: Cornell College Royal Purple
 #  loc: Mount Vernon, IA
 #  descr:
-#  - coordinated the production of a college yearbook with over one hundred pages
-#  - led and maintained a staff of ten
-#  - delegated tasks and enforced deadlines on the staff
+#  - Coordinated the production of a college yearbook with over one hundred pages.
+#  - Led and maintained a staff of ten.
+#  - Delegated tasks and enforced deadlines on the staff.
 
 #- time: "Sep '04 -- Aug '09"
 #  title: "**Technical Assistant**"
 #  comp: D.C. Everest & the local community
 #  loc: Wausau, WI
 #  descr:
-#  - volunteered technical expertise in over twenty shows for the community
-#  - produced video, designed lights, ran a soundboard, and called a show
-#  - gained leadership experience in training younger students
+#  - Volunteered technical expertise in over twenty shows for the community.
+#  - Produced video, designed lights, ran a soundboard, and called a show.
+#  - Gained leadership experience in training younger students.
 
 #- time: "Sep '07 -- Aug '08"
 #  title: "**Grand Theatre Stagehand**"
 #  comp: Arts Block
 #  loc: Wausau, WI
 #  descr:
-#  - loaded and unloaded trucks full of scenery, costumes, and props
-#  - assisted in sound and lighting design, hanging lights, and spot-light operation
+#  - Loaded and unloaded trucks full of scenery, costumes, and props.
+#  - Assisted in sound and lighting design, hanging lights, and spot-light operation.
 
 
 
