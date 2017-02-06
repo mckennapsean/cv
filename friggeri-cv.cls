@@ -125,14 +125,28 @@
 \newcommand{\header}[3]{%
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){};
-    \node [anchor=center] (name) at (box) {%
+    \node [anchor=west,
+      xshift = 3cm
+    ] (name) at (0,1) {%
       \fontsize{40pt}{72pt}\color{header}%
       {\titlefont #1}
     };
-    \node [anchor=north] at (name.south) {%
+    \node [anchor=west,
+      xshift = 3cm
+    ] at (0,0) {%
       \fontsize{14pt}{24pt}\color{header}%
       \thinfont #2%
     };
+    \node[circle,draw=darkpurple,
+      minimum width=3cm,
+      line width=0.5mm,
+      yshift=0.8cm,
+      xshift=1cm,
+      path picture={
+        \node at (path picture bounding box.center){
+          \includegraphics[width=3cm]{profile}
+        };
+    }]{};
   \end{tikzpicture}
   \vspace{2.5cm}
   \vspace{-2\parskip}
