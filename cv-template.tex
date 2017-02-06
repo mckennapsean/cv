@@ -1,5 +1,8 @@
 \documentclass[]{friggeri-cv}
 
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist
+
 \begin{document}
 \header
   {$name$}
@@ -36,6 +39,16 @@ $endfor$
 
 
 \vspace{-0.15in}
+\section{technical skills}
+\begin{changemargin}{0.35in}{0in}
+$for(tech.lang)$
+  \textbf{$tech.lang$} \, \, \,
+$endfor$
+\end{changemargin}
+
+
+
+\vspace{-0.05in}
 \section{professional experience}
 \begin{entrylist}
 $for(jobs)$
@@ -75,7 +88,7 @@ $endfor$
 
 
 
-% \vspace{-0.05in}
+\vspace{-0.05in}
 \section{awards \& fellowships}
 \begin{itemize}[noitemsep, leftmargin=0.55in]
 $for(awards)$
@@ -99,7 +112,7 @@ $endfor$
 
 
 
-% \vspace{-0.15in}
+\vspace{-0.05in}
 \section{selected publications}
 
 \vspace{-0.05in}

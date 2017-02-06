@@ -2,7 +2,7 @@
 # personal
 name: Sean McKenna
 website: http://mckennapsean.com
-linkedin: https://linkedin.com/in/mckennapsean/
+linkedin: http://linkedin.com/in/mckennapsean
 email: sean@cs.utah.edu
 cell: "385-231-7651"
 jobTitle: Ph.D. Candidate in Computing
@@ -325,13 +325,13 @@ aff:
 
 tech:
   lang:
-  - javascript (es6, d3)
-  - html5 & css3
-  - python
-  - java
-  - c++
+  - Javascript (ES6, D3)
+  - HTML5 & CSS3
+  - Python
+  - Java
+  - C++
   - \LaTeX
-  - sql
+  - SQL
   - R
 
 ---
