@@ -58,7 +58,7 @@ cpubs:
 
 # non-refereed publications
 #npubs:
-#- title: "**Quantum Information Processing through Liquid NMR**"
+#- title: "Quantum Information Processing through Liquid NMR"
 #  bibl: "S. McKenna, J. Klingner, S. Wood. *Experimental Physics Report*."
 #  year: 2011
 
@@ -107,21 +107,21 @@ presents:
 # teaching experience
 teach:
 - time: Fall 2016
-  title: "[**Introduction to Visualization**](http://dataviscourse.net/2016/)"
+  title: "[Introduction to Visualization](http://dataviscourse.net/2016/)"
   loc: Salt Lake City, UT
   course: University of Utah, CS-6630
   descr:
   - Created and presented a lecture for a graduate course (65 students).
   - Mentored 13 students through the design process of their cumulative projects.
 - time: Spring 2016
-  title: "[**Algorithms and Data Structures**](http://www.eng.utah.edu/~cs2420/)"
+  title: "[Algorithms and Data Structures](http://www.eng.utah.edu/~cs2420/)"
   loc: Salt Lake City, UT
   course: University of Utah, CS-2420
   descr:
   - Presented 3 lectures for an undergraduate course (175 students).
   - Conceived a final project, wrote the description, and created test cases using Python and Java.
 - time: Fall 2013
-  title: "[**Introduction to Visualization**](http://www.sci.utah.edu/~miriah/cs6630/)"
+  title: "[Introduction to Visualization](http://www.sci.utah.edu/~miriah/cs6630/)"
   loc: Salt Lake City, UT
   course: University of Utah, CS-6630
   descr:
@@ -133,7 +133,7 @@ teach:
 # professional experience
 jobs:
 - time: "Fall 2012 -- present" #"Aug '12 -- present"
-  title: "**Research Assistant**"
+  title: "Research Assistant"
   comp: Scientific Computing and Imaging Institute
   loc: Salt Lake City, UT
   descr:
@@ -141,7 +141,7 @@ jobs:
   - Developed a scatterplot technique (R, C++, OpenGL) for exploring correlation of large datasets.
 
 - time: "Summer 2016" #"Jul '16 -- Sep '16"
-  title: "**Research Assistant**"
+  title: "Visualization Intern"
   comp: "Microsoft Research"
   loc: Redmond, WA
   descr:
@@ -149,7 +149,7 @@ jobs:
   - Conducted a study on Amazon Mechanical Turk to investigate engagement of visualization stories.
 
 - time: "Summer 2014 & Spring 2015" #"Jun '14 -- Aug '14 & Feb '15 -- Apr '15"
-  title: "**Research Assistant**"
+  title: "Visualization Intern"
   comp: MIT Lincoln Laboratory
   loc: Lexington, MA
   descr:
@@ -158,7 +158,7 @@ jobs:
   # - Performed a usability evaluation of the dashboard with network analysts and managers.
 
 - time: "Summer 2011" #"Jun '11 -- Aug '11"
-  title: "**Research Assistant**"
+  title: "Research Intern"
   comp: NASA's Space Telescope Science Institute
   loc: Baltimore, MD
   descr:
@@ -166,7 +166,7 @@ jobs:
   - Collaborated with 9 others to develop a visualization of user results for a citizen science project.
 
 #- time: "Jun '10 -- Aug '10"
-#  title: "**Research Assistant**"
+#  title: "Research Assistant"
 #  comp: University of Wisconsin-Oshkosh
 #  loc: Oshkosh, WI
 #  descr: 
@@ -174,7 +174,7 @@ jobs:
 #  - Designed a website to facilitate teaching algorithms visually.
 
 #- time: "Feb '11 -- Feb '12"
-#  title: "**Chair of Appropriations**"
+#  title: "Chair of Appropriations"
 #  comp: Cornell College Student Senate
 #  loc: Mount Vernon, IA
 #  descr:
@@ -183,7 +183,7 @@ jobs:
 #  - Optimized old workflows using new technologies.
 
 #- time: "Jan '12 -- Aug '12"
-#  title: "**Stage Manager for *Legally Blonde***"
+#  title: "Stage Manager for *Legally Blonde*"
 #  comp: Everest Academy for the Arts
 #  loc: Wausau, WI
 #  descr:
@@ -192,7 +192,7 @@ jobs:
 #  - Managed both the technical crew and called their cues for the show.
 
 #- time: "Aug '11 -- May '12"
-#  title: "**IT Support Technician**"
+#  title: "IT Support Technician"
 #  comp: Cornell College
 #  loc: Mount Vernon, IA
 #  descr:
@@ -200,7 +200,7 @@ jobs:
 #  - Conducted both computer hardware repairs and anti-virus removal.
 
 #- time: "Aug '10 -- May '11"
-#  title: "**Resident Assistant**"
+#  title: "Resident Assistant"
 #  comp: Cornell College Residence Life
 #  loc: Mount Vernon, IA
 #  descr:
@@ -208,7 +208,7 @@ jobs:
 #  - Provided assistance and programs for a building of 150 upperclassmen.
 
 #- time: "May '10 -- May '12"
-#  title: "**Station Manager**"
+#  title: "Station Manager"
 #  comp: Cornell College KRNL 89.7 FM
 #  loc: Mount Vernon, IA
 #  descr:
@@ -217,7 +217,7 @@ jobs:
 #  - Handled all financial transactions of the station's $15,000 annual budget.
 
 #- time: "Oct '08 -- Mar '09"
-#  title: "**Co-Editor-in-Chief**"
+#  title: "Co-Editor-in-Chief"
 #  comp: Cornell College Royal Purple
 #  loc: Mount Vernon, IA
 #  descr:
@@ -226,7 +226,7 @@ jobs:
 #  - Delegated tasks and enforced deadlines on the staff.
 
 #- time: "Sep '04 -- Aug '09"
-#  title: "**Technical Assistant**"
+#  title: "Technical Assistant"
 #  comp: D.C. Everest & the local community
 #  loc: Wausau, WI
 #  descr:
@@ -235,7 +235,7 @@ jobs:
 #  - Gained leadership experience in training younger students.
 
 #- time: "Sep '07 -- Aug '08"
-#  title: "**Grand Theatre Stagehand**"
+#  title: "Grand Theatre Stagehand"
 #  comp: Arts Block
 #  loc: Wausau, WI
 #  descr:
