@@ -54,8 +54,8 @@
   \colorlet{header}{white}
 \fi
 \colorlet{textcolor}{black}
-\colorlet{headercolor}{darkpurple}
-\colorlet{boldcolor}{gray}
+\colorlet{headercolor}{pink}
+\colorlet{boldcolor}{darkpurple}
 \colorlet{accentcolor}{pink}
 
 
@@ -144,19 +144,23 @@
 %%%%%%%%%%%%%
 \RequirePackage{parskip}
 
-\newcounter{colorCounter}
-\def\@sectioncolor#1#2#3{%
-  {%
-    \color{accentcolor} #1#2#3%
-  }%
-  \stepcounter{colorCounter}%
-}
+% \newcounter{colorCounter}
+% \def\@sectioncolor#1#2#3{%
+%   {%
+%     \color{accentcolor} #1#2#3%
+%   }%
+%   \stepcounter{colorCounter}%
+% }
 
 \renewcommand{\section}[1]{
   \par\vspace{\parskip}
   {%
     \LARGE\headingfont\color{headercolor}%
-    \@sectioncolor #1%
+    #1
+    \begingroup
+      \color{lightgray}
+      \hrule width \linewidth height 0.35mm
+    \endgroup
   }
   \par\vspace{\parskip}
 }
@@ -166,7 +170,7 @@
   \par
   % \par\vspace{.5\parskip}%
   {%
-  \large\headingfont\color{headercolor} #1%
+  \large\headingfont\color{lightgray} #1%
   }
   % \par\vspace{.25\parskip}%
   \setlength{\parindent}{0in}
