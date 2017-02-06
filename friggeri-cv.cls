@@ -162,7 +162,7 @@
 }
 
 \renewcommand{\subsection}[1]{
-  \setlength{\parindent}{0.25in}
+  \setlength{\parindent}{0.15in}
   \par
   % \par\vspace{.5\parskip}%
   {%

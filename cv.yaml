@@ -52,14 +52,14 @@ cpubs:
   year: 2015
 
 - title: "[Visualization Evaluation for Cyber Security: Trends and Future Directions](http://dl.acm.org/citation.cfm?id=2671492&dl=ACM&coll=DL&CFID=668429909&CFTOKEN=38032718)"
-  bibl: "D. Staheli, T. Yu, J. Crouser, S. Damodaran, K. Nam, D. O'Gwynn, S. McKenna, L. Harrison. *Proceedings of the Eleventh International Symposium on Visualization for Cyber Security (VizSec).*"
+  bibl: "D. Staheli, T. Yu, J. Crouser, S. Damodaran, K. Nam, D. O'Gwynn, S. McKenna, L. Harrison. *Proceedings of the Eleventh International Symposium on Visualization for Cyber Security (VizSec)*."
   year: 2014
 
 
 # non-refereed publications
 #npubs:
 #- title: "**Quantum Information Processing through Liquid NMR**"
-#  bibl: "S. McKenna, J. Klingner, S. Wood. Experimental Physics Report."
+#  bibl: "S. McKenna, J. Klingner, S. Wood. *Experimental Physics Report*."
 #  year: 2011
 
 
@@ -74,22 +74,33 @@ ipubs:
 
 
 
-# all presentations (ensure the label is always on the top-most pres!)
+# all presentations (just posters for now)
 presents:
 
 # poster presentations
-- pres: "S. McKenna, M. Meyer, C. Gregg, S. Gerber. [**s-CorrPlot: Encoding and Exploring Correlation**](http://mckennapsean.com/projects/s-corrplot/poster.png), IEEE VIS: InfoVis, 2014."
-  label: "posters:"
+- title: "[s-CorrPlot: Encoding and Exploring Correlation](http://mckennapsean.com/projects/s-corrplot/poster.png)"
+  bibl: "S. McKenna, M. Meyer, C. Gregg, S. Gerber. *IEEE VIS: InfoVis*."
+  year: 2014
 
-- pres: "S. McKenna. [**Designing STAR: A Cyber Dashboard Prototype**](http://mckennapsean.com/projects/cybersecurity-dashboard/poster.png), International Symposium on Visualization for Cyber Security (VizSec), 2014."
+- title: "[Designing STAR: A Cyber Dashboard Prototype](http://mckennapsean.com/projects/cybersecurity-dashboard/poster.png)"
+  bibl: "S. McKenna. *International Symposium on Visualization for Cyber Security (VizSec)*."
+  year: 2014
 
-- pres: "S. McKenna, P. Quinan, A. Bigelow. [**compariSeq: Rethinking Sequence Logos**](http://mckennapsean.com/projects/compariseq/), BioVis Redesign Contest, 2013."
+- title: "[compariSeq: Rethinking Sequence Logos](http://mckennapsean.com/projects/compariseq/)"
+  bibl: "S. McKenna, P. Quinan, A. Bigelow. *BioVis Redesign Contest*."
+  year: 2013
 
-#- pres: "S. McKenna, D. Adrian, N. Decker. **Envisioning an Online Learning Environment: Integrating Algorithm Visualizations with JGIVE**, Cornell College Symposium, 2011."
+#- title: "Envisioning an Online Learning Environment: Integrating Algorithm Visualizations with JGIVE"
+#  bibl: "S. McKenna, D. Adrian, N. Decker. *Cornell College Symposium*."
+#  year: 2011
 
-# tutorials
-#- pres: S. McKenna, A. Bigelow, S. Quinan, E. Kerzner. [**Git Tutorial**](https://docs.google.com/presentation/d/1O1e1MABPfBhCPeA0UUem4__L-zRl00WZCt_jwU0zZ4M/edit?usp=sharing), SCI Institute Visualization Seminar, 2014.
-#  label: "tutorials:"
+
+
+# tutorials (could combine with above to make presentations)
+#tutorials:
+#- title: "[Git Tutorial](https://docs.google.com/presentation/d/1O1e1MABPfBhCPeA0UUem4__L-zRl00WZCt_jwU0zZ4M/edit?usp=sharing)"
+#  bibl: "S. McKenna, A. Bigelow, S. Quinan, E. Kerzner. SCI Institute Visualization Seminar."
+#  year: 2014
 
 
 
