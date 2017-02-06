@@ -48,9 +48,9 @@ $endfor$
 \begin{entrylist}
 $for(jobs)$
   \entryalt
-  {$jobs.time$}
-  {$jobs.comp$}
+  {\textit{$jobs.title$}, $jobs.comp$}
   {$jobs.loc$}
+  {$jobs.time$}
   \setlength\parskip{0pt}
   \begin{itemize}[noitemsep, leftmargin=0.2in]
     $for(jobs.descr)$
@@ -67,10 +67,9 @@ $endfor$
 \section{teaching experience}
 \begin{entrylist}
 $for(teach)$
-  \entry
-  {$teach.time$}
+  \entrypub
   {$teach.title$}
-  {$teach.loc$}
+  {$teach.time$}
   {$teach.course$}
   \setlength\parskip{0pt}
   \begin{itemize}[noitemsep, leftmargin=0.2in]
