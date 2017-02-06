@@ -207,6 +207,13 @@
     {\footnotesize\addfontfeature{Color=lightgray} #1}%
     \vspace{\parsep}%
   }
+\newcommand{\entrypub}[2]{
+  \item[]
+    \textbf{#1}
+    \hfill
+    {\footnotesize\addfontfeature{Color=lightgray} #2}\\%
+    % \vspace{\parsep}%
+}
 
 % old list environment
 % \newenvironment{entrylist}{%

@@ -42,14 +42,34 @@ $endfor$
 
 
 \section{publications}
+
 \subsection{journal:}
 \begin{entrylist}
-$for(pubs)$
-  \entry
-  {$pubs.label$}
-  {}
-  {}
-  {$pubs.pub$}
+$for(jpubs)$
+  \entrypub
+  {$jpubs.title$}
+  {$jpubs.year$}
+  {$jpubs.bibl$}\\
+$endfor$
+\end{entrylist}
+
+\subsection{conference:}
+\begin{entrylist}
+$for(cpubs)$
+  \entrypub
+  {$cpubs.title$}
+  {$cpubs.year$}
+  {$cpubs.bibl$}\\
+$endfor$
+\end{entrylist}
+
+\subsection{in-progress:}
+\begin{entrylist}
+$for(ipubs)$
+  \entrypub
+  {$ipubs.title$}
+  {$ipubs.year$}
+  {$ipubs.bibl$}\\
 $endfor$
 \end{entrylist}
 
