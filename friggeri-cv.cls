@@ -162,11 +162,14 @@
 }
 
 \renewcommand{\subsection}[1]{
-  \par\vspace{.5\parskip}%
+  \setlength{\parindent}{0.25in}
+  \par
+  % \par\vspace{.5\parskip}%
   {%
   \large\headingfont\color{headercolor} #1%
   }
-  \par\vspace{.25\parskip}%
+  % \par\vspace{.25\parskip}%
+  \setlength{\parindent}{0in}
 }
 
 \pagestyle{empty}
@@ -182,24 +185,27 @@
 %% from: http://tex.stackexchange.com/questions/242194/
 \usepackage{enumitem}
 \newenvironment{entrylist}{%
-  \begin{itemize}[noitemsep, leftmargin=1in]%[leftmargin=*,align=left,itemindent=-\dimexpr\labelwidth+\labelindent+\labelsep\relax]
+  \begin{itemize}[noitemsep, leftmargin=0.35in]%[leftmargin=*,align=left,itemindent=-\dimexpr\labelwidth+\labelindent+\labelsep\relax]
 }{%
   \end{itemize}
 }
 
 \renewcommand{\bfseries}{\boldfont\color{boldcolor}}
 \newcommand{\entry}[4]{%
-  \item[#1]
+  \item[]
     \textbf{#2}%
     \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
-    #4\vspace{\parsep}%
+    {\footnotesize\addfontfeature{Color=lightgray} #1}\\%
+    #4%
+    \hfill%
+    \vspace{\parsep}%
   }
 \newcommand{\entryalt}[3]{%
-  \item[#1]
+  \item[]
     \textbf{#2}%
     \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #3}%
+    {\footnotesize\addfontfeature{Color=lightgray} #1}%
+    \vspace{\parsep}%
   }
 
 % old list environment
