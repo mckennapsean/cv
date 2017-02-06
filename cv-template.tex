@@ -25,13 +25,13 @@ $for(edu)$
     {$edu.degree$}
   $endif$
   {$edu.year$}
-  {$edu.inst$ | $edu.loc$}
+  {$edu.inst$, $edu.loc$, }
   $if(edu.thesis)$
-    { | Advisor: $edu.advisor$}\\
+    {Advisor: $edu.advisor$}\\
     {Thesis: ``$edu.thesis$''}\\
   $endif$
   $if(edu.dist)$
-    { | $edu.dist$}\\
+    {$edu.dist$}\\
   $endif$
 $endfor$
 \end{entrylist}
@@ -72,10 +72,10 @@ $endfor$
 \section{teaching experience}
 \begin{entrylist}
 $for(teach)$
-  \entrypub
-  {$teach.title$}
+  \entryalt
+  {\textit{$teach.title$}, $teach.course$}
+  {$teach.loc$}
   {$teach.time$}
-  {$teach.course$}
   \setlength\parskip{0pt}
   \begin{itemize}[noitemsep, leftmargin=0.2in]
     $for(teach.descr)$

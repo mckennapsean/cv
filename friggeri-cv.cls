@@ -162,7 +162,7 @@
 \newcommand{\entryalt}[3]{%
   \vspace{-0.075in}
   \item[]
-    \textbf{#1} | #2%
+    \textbf{#1}, #2%
     \hfill%
     {\footnotesize #3}%
     \vspace{\parsep}%
