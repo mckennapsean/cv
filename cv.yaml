@@ -231,9 +231,11 @@ awards:
 service:
 - title: Program Committee Member
   org: Visualization for Cybersecurity Symposium
+  descr: Examined 7 submissions for publication in a peer-reviewed symposium.
   time: "2015 -- 2016"
 - title: C.S. Graduate Student Advisory Committee
   org: University of Utah
+  descr: Voted on the retention, promotion, and tenure of professors in the CS department.
   time: "2013 -- 2015"
 #- title: Student Senator
 #  org: Cornell College
