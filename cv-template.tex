@@ -24,17 +24,19 @@
 \begin{entrylist}
 $for(edu)$
   \entrypub
-  {$edu.degree$}
-  {$edu.year$}
-  {$edu.inst$.}
-  $if(edu.thesis)$
-    {Advisor: $edu.advisor$}.\\
+  $if(edu.minor)$
+    {$edu.degree$, Minor: $edu.minor$}
+  $else$
+    {$edu.degree$}
   $endif$
+  {$edu.year$}
+  {$edu.inst$ | $edu.loc$}
   $if(edu.thesis)$
+    { | Advisor: $edu.advisor$}\\
     {Thesis: ``$edu.thesis$''}\\
   $endif$
-  $if(edu.minor)$
-    {$edu.dist$. Minor: $edu.minor$}.\\
+  $if(edu.dist)$
+    { | $edu.dist$}\\
   $endif$
 $endfor$
 \end{entrylist}
