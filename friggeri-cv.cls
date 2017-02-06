@@ -137,16 +137,16 @@
       \fontsize{14pt}{24pt}\color{header}%
       \thinfont #2%
     };
-    \node[circle,draw=darkpurple,
-      minimum width=2.8cm,
-      line width=0.5mm,
-      yshift=0.9cm,
-      xshift=1.2cm,
-      path picture={
-        \node at (path picture bounding box.center){
-          \includegraphics[width=2.8cm]{profile}
-        };
-    }]{};
+    % \node[circle,draw=darkpurple,
+    %   minimum width=2.8cm,
+    %   line width=0.5mm,
+    %   yshift=0.9cm,
+    %   xshift=1.2cm,
+    %   path picture={
+    %     \node at (path picture bounding box.center){
+    %       \includegraphics[width=2.8cm]{profile}
+    %     };
+    % }]{};
   \end{tikzpicture}
   \vspace{2.5cm}
   \vspace{-2\parskip}
