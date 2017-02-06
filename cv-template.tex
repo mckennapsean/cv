@@ -42,7 +42,71 @@ $endfor$
 
 
 \vspace{-0.15in}
+\section{professional experience}
+\begin{entrylist}
+$for(jobs)$
+  \entryalt
+  {$jobs.time$}
+  {$jobs.comp$}
+  {$jobs.loc$}
+  \setlength\parskip{0pt}
+  \begin{itemize}[noitemsep, leftmargin=0.2in]
+    $for(jobs.descr)$
+      \item $jobs.descr$
+    $endfor$
+  \end{itemize}
+  \setlength\parskip{12pt}
+$endfor$
+\end{entrylist}
 
+
+
+\vspace{-0.05in}
+\section{teaching experience}
+\begin{entrylist}
+$for(teach)$
+  \entry
+  {$teach.time$}
+  {$teach.title$}
+  {$teach.loc$}
+  {$teach.course$}
+  \setlength\parskip{0pt}
+  \begin{itemize}[noitemsep, leftmargin=0.2in]
+    $for(teach.descr)$
+      \item $teach.descr$
+    $endfor$
+  \end{itemize}
+  \setlength\parskip{12pt}
+$endfor$
+\end{entrylist}
+
+
+
+% \vspace{-0.05in}
+\section{awards \& fellowships}
+\begin{itemize}[noitemsep, leftmargin=0.55in]
+$for(awards)$
+  \entryitem
+  {$awards.title$}
+  {$awards.time$}
+$endfor$
+\end{itemize}
+
+
+
+\vspace{-0.05in}
+\section{service}
+\begin{itemize}[noitemsep, leftmargin=0.55in]
+$for(service)$
+  \entryitem
+  {$service.title$: $service.org$}
+  {$service.time$}
+$endfor$
+\end{itemize}
+
+
+
+% \vspace{-0.15in}
 \section{publications}
 
 \vspace{-0.05in}
@@ -77,90 +141,6 @@ $for(ipubs)$
   {$ipubs.bibl$}\\
 $endfor$
 \end{entrylist}
-
-
-
-% TEMP FIX FOR WIDOW
-\vspace{-0.15in}
-
-\section{posters}
-\begin{entrylist}
-$for(presents)$
-  \entrypub
-  {$presents.title$}
-  {$presents.year$}
-  {$presents.bibl$}\\
-$endfor$
-\end{entrylist}
-
-
-
-\vspace{-0.15in}
-
-\section{teaching experience}
-\begin{entrylist}
-$for(teach)$
-  \entry
-  {$teach.time$}
-  {$teach.title$}
-  {$teach.loc$}
-  {$teach.course$}
-  \setlength\parskip{0pt}
-  \begin{itemize}[noitemsep, leftmargin=0.2in]
-    $for(teach.descr)$
-      \item $teach.descr$
-    $endfor$
-  \end{itemize}
-  \setlength\parskip{12pt}
-$endfor$
-\end{entrylist}
-
-
-
-% \vspace{-0.05in}
-
-\section{professional experience}
-\begin{entrylist}
-$for(jobs)$
-  \entryalt
-  {$jobs.time$}
-  {$jobs.comp$}
-  {$jobs.loc$}
-  \setlength\parskip{0pt}
-  \begin{itemize}[noitemsep, leftmargin=0.2in]
-    $for(jobs.descr)$
-      \item $jobs.descr$
-    $endfor$
-  \end{itemize}
-  \setlength\parskip{12pt}
-$endfor$
-\end{entrylist}
-
-
-
-% \vspace{-0.05in}
-
-\section{awards \& fellowships}
-\begin{itemize}[noitemsep, leftmargin=0.55in]
-$for(awards)$
-  \entryitem
-  {$awards.title$}
-  {$awards.time$}
-$endfor$
-\end{itemize}
-
-
-
-% \vspace{-0.05in}
-
-\section{service}
-\begin{itemize}[noitemsep, leftmargin=0.55in]
-$for(service)$
-  \entryitem
-  {$service.title$: $service.org$}
-  {$service.time$}
-$endfor$
-\end{itemize}
 
 
 
