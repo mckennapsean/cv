@@ -7,6 +7,22 @@
   - am I fine removing job titles? cleaner?
   - should I add open-source coding projects? ones I have released or contributed to? e.g. include side projects, my role, skills, and contributions
 
+  - issue with teaching assistant / title instead of verb for first two teaching experiences
+  - margins issue
+  - header printing issue
+  - alignment issue across sections
+  - fix boxing and alignment with other sections
+  - bolding / issue with ieee formatting
+  - remove widows
+  - remove two columns
+  - fix double-date issue?
+  - bold subsections?
+  - should thesis be italicized? quotes?
+  - are presentations just posters?
+  - add in about-me info somewhere
+  - add in photo
+  - fix color issue, perhaps a line with color?
+
   - clean up styling for PDF
   - make file don't quite work, improve building
   - build for resume & for cv?
