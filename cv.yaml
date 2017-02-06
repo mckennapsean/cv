@@ -132,7 +132,7 @@ teach:
 
 # professional experience
 jobs:
-- time: "Aug '12 -- present"
+- time: "Fall 2012 -- present" #"Aug '12 -- present"
   title: "**Research Assistant**"
   comp: Scientific Computing and Imaging Institute
   loc: Salt Lake City, UT
@@ -140,7 +140,7 @@ jobs:
   - crafted and evaluated worksheets to guide students through the visualization design process
   - developed a scatterplot technique (R, C++, OpenGL) for exploring correlation of large datasets
 
-- time: "Jul '16 -- Sep '16"
+- time: "Summer 2016" #"Jul '16 -- Sep '16"
   title: "**Research Assistant**"
   comp: "Microsoft Research"
   loc: Redmond, WA
@@ -148,7 +148,7 @@ jobs:
   - built a Javascript library (ES6, D3) to interactively create scrolling, animated visualizations
   - conducted a study on Amazon Mechanical Turk to investigate engagement of visualization stories
 
-- time: "Jun '14 -- Aug '14 & Feb '15 -- Apr '15"
+- time: "Summer 2014 & Spring 2015" #"Jun '14 -- Aug '14 & Feb '15 -- Apr '15"
   title: "**Research Assistant**"
   comp: MIT Lincoln Laboratory
   loc: Lexington, MA
@@ -157,7 +157,7 @@ jobs:
   - implemented a backend (Python, Bash) for updating the dashboard daily using JSON
   # - performed a usability evaluation of the dashboard with network analysts and managers
 
-- time: "Jun '11 -- Aug '11"
+- time: "Summer 2011" #"Jun '11 -- Aug '11"
   title: "**Research Assistant**"
   comp: NASA's Space Telescope Science Institute
   loc: Baltimore, MD
