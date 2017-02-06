@@ -90,25 +90,28 @@ $endfor$
 
 \vspace{-0.05in}
 \section{awards \& fellowships}
-\begin{itemize}[noitemsep, leftmargin=0.55in]
+\begin{entrylist}
 $for(awards)$
   \entryitem
   {$awards.title$}
   {$awards.time$}
 $endfor$
-\end{itemize}
+\end{entrylist}
 
 
 
 \vspace{-0.05in}
 \section{service}
-\begin{itemize}[noitemsep, leftmargin=0.55in]
+\begin{entrylist}
 $for(service)$
   \entryitem
-  {$service.title$: $service.org$}
+  {\textbf{\textit{$service.title$}}, $service.org$}
   {$service.time$}
+  \begin{itemize}[noitemsep, leftmargin=0.2in]
+    \item $service.descr$
+  \end{itemize}
 $endfor$
-\end{itemize}
+\end{entrylist}
 
 
 

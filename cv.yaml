@@ -194,35 +194,35 @@ teach:
 
 # awards and fellowships
 awards:
-- title: "Winner of Teapot Rendering Competition: University of Utah"
+- title: "**Winner**, Teapot Rendering Competition, University of Utah"
   time: 2013
-- title: "Winner of a challenge at the Human Brain Mapping Hackathon: Allen Institute for Brain Science"
+- title: "**Winner**, Challenge at the Human Brain Mapping Hackathon, Allen Institute for Brain Science"
   time: 2013
-- title: "Wayne Brown Fellowship ($30,000): University of Utah"
-  time: "2012 -- 2014"
-- title: "Phi Beta Kappa: Cornell College"
+- title: "**Wayne Brown Fellowship** ($30,000), University of Utah"
+  time: 2012
+- title: "**Phi Beta Kappa**, Cornell College"
   time: 2011
-#- title: "Summa Cum Laude: Cornell College"
+#- title: "Summa Cum Laude, Cornell College"
 #  time: 2012
-#- title: "Outstanding Physics Major Award: Cornell College"
+#- title: "Outstanding Physics Major Award, Cornell College"
 #  time: 2011
-#- title: "Dean's List of Highest Honors: Cornell College"
+#- title: "Dean's List of Highest Honors, Cornell College"
 #  time: "2010 -- 2012"
-#- title: "Ed Hill Mathematics Scholar: Cornell College"
+#- title: "Ed Hill Mathematics Scholar, Cornell College"
 #  time: 2009
-#- title: "First Year Computer Science Student Achievement Award: Cornell College"
+#- title: "First Year Computer Science Student Achievement Award, Cornell College"
 #  time: 2009
-#- title: "Academic Trustee Scholarship ($60,000): Cornell College""
-#  time: "2008 -- 2012"
-#- title: "National AP Scholar Award: College Board"
+#- title: "Academic Trustee Scholarship ($60,000), Cornell College""
 #  time: 2008
-#- title: "Science Achievement Scholarship ($200): D.C. Everest Senior High"
+#- title: "National AP Scholar Award, College Board"
 #  time: 2008
-#- title: "Drama Boosters Scholarship ($850): D.C. Everest Senior High"
+#- title: "Science Achievement Scholarship ($200), D.C. Everest Senior High"
 #  time: 2008
-#- title: "Wausau Community Theatre Star Award"
+#- title: "Drama Boosters Scholarship ($850), D.C. Everest Senior High"
 #  time: 2008
-#- title: "National Honors Society: D.C. Everest Senior High"
+#- title: "Star Award, Wausau Community Theatre"
+#  time: 2008
+#- title: "National Honors Society, D.C. Everest Senior High"
 #  time: 2008
 
 
@@ -233,7 +233,7 @@ service:
   org: Visualization for Cybersecurity Symposium
   time: "2015 -- 2016"
 - title: C.S. Graduate Student Advisory Committee
-  org: "University of Utah"
+  org: University of Utah
   time: "2013 -- 2015"
 #- title: Student Senator
 #  org: Cornell College

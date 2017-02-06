@@ -176,7 +176,8 @@
     % \vspace{\parsep}%
 }
 \newcommand{\entryitem}[2]{
-  \item #1 \hfill
+  % \vspace{-0.075in}
+  \item[] #1 \hfill
   {\footnotesize #2}
 }
 
