@@ -26,15 +26,18 @@
 \section{education}
 \begin{entrylist}
 $for(edu)$
-  \entry
-  {$edu.year$}
+  \entrypub
   {$edu.degree$}
-  {$edu.inst$: $edu.loc$}
+  {$edu.year$}
+  {$edu.inst$.}
   $if(edu.thesis)$
-    {Thesis: \textit{$edu.thesis$.} Advisor: $edu.advisor$}
+    {Advisor: $edu.advisor$}.\\
+  $endif$
+  $if(edu.thesis)$
+    {Thesis: ``$edu.thesis$.''}\\
   $endif$
   $if(edu.minor)$
-    {$edu.dist$. Minor: $edu.minor$}
+    {$edu.dist$. Minor: $edu.minor$}.\\
   $endif$
 $endfor$
 \end{entrylist}
