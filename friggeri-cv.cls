@@ -1,7 +1,6 @@
 \ProvidesClass{friggeri-cv}[2012/04/30 CV class]
 \NeedsTeXFormat{LaTeX2e}
 
-\DeclareOption{print}{\def\@cv@print{}}
 \DeclareOption*{%
   \PassOptionsToClass{\CurrentOption}{article}%
 }
@@ -71,7 +70,7 @@
   \color{white}%
 }
 
-\newcommand{\header}[3]{%
+\newcommand{\header}[6]{%
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=0.89\paperwidth, minimum height=4cm] (box) at (current page.north){};
     \node [anchor=west] (name) at (0,1) {%
@@ -81,6 +80,22 @@
     \node [anchor=west, xshift=0.1cm] at (0,0) {%
       \fontsize{14pt}{24pt}\color{header}%
       \thinfont #2%
+    };
+    \node [anchor=east, xshift=6.55in] at(0,1.25){
+      \color{header}
+      \thinfont #3
+    };
+    \node [anchor=east, xshift=6.55in] at(0,0.75){
+      \color{header}
+      \thinfont #4
+    };
+    \node [anchor=east, xshift=6.55in] at(0,0.25){
+      \color{header}
+      \thinfont #5
+    };
+    \node [anchor=east, xshift=6.55in] at(0,-0.25){
+      \color{header}
+      \thinfont #6
     };
   \end{tikzpicture}
   \vspace{2.5cm}
