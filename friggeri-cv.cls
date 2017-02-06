@@ -154,7 +154,7 @@
   \item[]
     \textbf{#2}%
     \hfill%
-    {\footnotesize #1}\\%
+    #1\\%
     #4%
     \hfill%
     \vspace{\parsep}%
@@ -164,7 +164,7 @@
   \item[]
     \textbf{#1}, #2%
     \hfill%
-    {\footnotesize #3}%
+    #3%
     \vspace{\parsep}%
   }
 \newcommand{\entrypub}[2]{
@@ -172,13 +172,13 @@
   \item[]
     \textbf{#1}
     \hfill
-    {\footnotesize #2}\\%
+    #2\\%
     % \vspace{\parsep}%
 }
 \newcommand{\entryitem}[2]{
   % \vspace{-0.075in}
   \item[] #1 \hfill
-  {\footnotesize #2}
+  #2
 }
 
 % old list environment
