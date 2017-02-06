@@ -109,25 +109,25 @@ teach:
 - time: Fall 2016
   title: "[**Introduction to Visualization**](http://dataviscourse.net/2016/)"
   loc: Salt Lake City, UT
-  course: CS-6630, University of Utah
+  course: University of Utah, CS-6630
   descr:
   - created and presented a lecture on the visualization design process
-  - crafted worksheets to help guide students through the design process
+  # - crafted worksheets to help guide students through the design process
   - mentored 13 students through the design process for their cumulative projects
 - time: Spring 2016
   title: "[**Algorithms and Data Structures**](http://www.eng.utah.edu/~cs2420/)"
   loc: Salt Lake City, UT
-  course: CS-2420, University of Utah
+  course: University of Utah, CS-2420
   descr:
-  - teaching assistant and lecturer for an undergraduate course (175 students)
-  - created and presented three lectures; designed and wrote a new final project
+  - created and presented three lectures for an undergraduate course (175 students)
+  - designed and wrote a new final project for students to implement Dijkstra's algorithm
 - time: Fall 2013
   title: "[**Introduction to Visualization**](http://www.sci.utah.edu/~miriah/cs6630/)"
   loc: Salt Lake City, UT
-  course: CS-6630, University of Utah
+  course: University of Utah, CS-6630
   descr:
-  - teaching assistant for a graduate-level course (60 students)
-  - created and presented five lectures; wrote several new assignments
+  - created and presented five lectures for a graduate course (60 students)
+  - adapted and rewrote several assignments to a new language
 
 
 
@@ -248,7 +248,7 @@ jobs:
 awards:
 - title: "Winner of Teapot Rendering Competition: University of Utah"
   time: 2013
-- title: "Winner of the second challenge at the Human Brain Mapping Hackathon: Allen Institute for Brain Science & Amazon Web Services"
+- title: "Winner of a challenge at the Human Brain Mapping Hackathon: Allen Institute for Brain Science"
   time: 2013
 - title: "Wayne Brown Fellowship ($30,000): University of Utah"
   time: "2012 -- 2014"
