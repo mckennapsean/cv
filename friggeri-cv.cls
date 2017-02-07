@@ -111,10 +111,10 @@
 \renewcommand{\section}[1]{
   \par\vspace{\parskip}
   {
-    \vspace{0.09in}
+    \vspace{0.05in}
     \LARGE\headingfont\color{headercolor}%
     #1
-    \vspace{-0.09in}
+    \vspace{-0.05in}
   }
   \par\vspace{\parskip}
 }
@@ -150,7 +150,6 @@
 
 \renewcommand{\bfseries}{\boldfont\color{boldcolor}}
 \newcommand{\entry}[4]{%
-  \vspace{-0.075in}
   \item[]
     \textbf{#2}%
     \hfill%
@@ -165,7 +164,7 @@
     \textbf{#1}, #2%
     \hfill%
     #3%
-    \vspace{\parsep}%
+    % \vspace{\parsep}%
   }
 \newcommand{\entrypub}[2]{
   \vspace{-0.075in}
