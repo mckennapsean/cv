@@ -92,8 +92,8 @@ jobs:
 #  comp: University of Wisconsin-Oshkosh
 #  loc: Oshkosh WI
 #  descr: 
-#  - Developed a system within a group on Drupal, a CMS.
-#  - Designed a website to facilitate teaching algorithms visually.
+#  - Collaboratively developed a system using PHP and Drupal for presenting educational materials online.
+#  - Constructed a website to facilitate teaching algorithms visually by connecting with existing software.
 
 - time: "Summer 2012" #Jan '12 -- Aug '12"
   title: "Stage Manager for Legally Blonde"
@@ -118,25 +118,24 @@ jobs:
 #  comp: Cornell College
 #  loc: Mount Vernon IA
 #  descr:
-#  - Maintained computer hardware and software on a ~2000 computer network.
-#  - Conducted both computer hardware repairs and anti-virus removal.
+#  - Maintained computer hardware and software updates across the campus' 2,000 computer network.
+#  - Conducted computer hardware repairs and anti-virus removal on college property and student-owned devices.
 
 #- time: "Aug '10 -- May '11"
 #  title: "Resident Assistant"
 #  comp: Cornell College Residence Life
 #  loc: Mount Vernon IA
 #  descr:
-#  - Responded to immediate and emergent concerns of residents.
-#  - Provided assistance and programs for a building of 150 upperclassmen.
+#  - Responded to immediate and emergent concerns of residents, especially when on-call.
+#  - Planned a dozen programs or activities and provided resources for a building of 150 upperclassmen.
 
 #- time: "May '10 -- May '12"
-#  title: "Station Manager"
-#  comp: Cornell College KRNL 89.7 FM
+#  title: "KRNL 89.7 FM Station Manager"
+#  comp: Cornell College
 #  loc: Mount Vernon IA
 #  descr:
-#  - Redesigned the hardware and software to create a more effective webcast.
-#  - Managed a paid staff of ten students and coordinated forty DJs.
-#  - Handled all financial transactions of the station's $15,000 annual budget.
+#  - Reconfigured the hardware and software to create a more efficient webcast.
+#  - Managed a paid staff of 10 students and coordinated 40 DJs along with the station's $15,000 annual budget.
 
 #- time: "Oct '08 -- Mar '09"
 #  title: "Co-Editor-in-Chief"
