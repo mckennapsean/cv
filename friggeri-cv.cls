@@ -48,6 +48,7 @@
 
 \newfontfamily\bodyfont[]{Source Sans Pro}
 \newfontfamily\thinfont[]{Source Sans Pro ExtraLight}
+\newfontfamily\regfont[]{Source Sans Pro Light}
 \newfontfamily\boldfont[]{Source Sans Pro Semibold}
 \newfontfamily\titlefont[]{Lora}
 \newfontfamily\headingfont[]{Lora Bold}
@@ -79,23 +80,19 @@
     };
     \node [anchor=west, xshift=0.1cm] at (0,0) {%
       \fontsize{14pt}{24pt}\color{header}%
-      \thinfont #2%
+      \regfont #2%
     };
-    \node [anchor=east, xshift=6.55in] at(0,1.25){
-      \color{header}
-      \thinfont #3
+    \node [anchor=east, xshift=6.55in] at(0,1.15){
+      \color{header} #3
     };
     \node [anchor=east, xshift=6.55in] at(0,0.75){
-      \color{header}
-      \thinfont #4
+      \color{header} #4
     };
-    \node [anchor=east, xshift=6.55in] at(0,0.25){
-      \color{header}
-      \thinfont #5
+    \node [anchor=east, xshift=6.55in] at(0,0.35){
+      \color{header} #5
     };
-    \node [anchor=east, xshift=6.55in] at(0,-0.25){
-      \color{header}
-      \thinfont #6
+    \node [anchor=east, xshift=6.55in] at(0,-0.05){
+      \color{header} #6
     };
   \end{tikzpicture}
   \vspace{2.5cm}
