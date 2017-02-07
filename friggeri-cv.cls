@@ -74,11 +74,11 @@
 \newcommand{\header}[6]{%
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=0.89\paperwidth, minimum height=4cm] (box) at (current page.north){};
-    \node [anchor=west] (name) at (0,1) {%
+    \node [anchor=west, xshift=-0.2cm] (name) at (0,1) {%
       \fontsize{40pt}{72pt}\color{header}%
       {\titlefont #1}
     };
-    \node [anchor=west, xshift=0.1cm] at (0,0) {%
+    \node [anchor=west, xshift=-0.1cm] at (0,0) {%
       \fontsize{14pt}{24pt}\color{header}%
       \regfont #2%
     };
