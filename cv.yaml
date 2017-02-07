@@ -95,23 +95,23 @@ jobs:
 #  - Developed a system within a group on Drupal, a CMS.
 #  - Designed a website to facilitate teaching algorithms visually.
 
-#- time: "Feb '11 -- Feb '12"
-#  title: "Chair of Appropriations"
-#  comp: Cornell College Student Senate
-#  loc: Mount Vernon IA
-#  descr:
-#  - Managed and coordinated a budget over $250,000 for 1,200 students.
-#  - Coordinated a substantial rewrite of the financial by-laws.
-#  - Optimized old workflows using new technologies.
+- time: "Summer 2012" #Jan '12 -- Aug '12"
+  title: "Stage Manager for Legally Blonde"
+  comp: "Everest Academy for the Arts"
+  loc: Wausau WI
+  descr:
+  - Managed a cast and crew of 60 to conduct professional rehearsals and work sessions.
+  - Headed technical operation of the crew by consistently calling cues in each production.
+  # - Designed the logo for all production-related materials.
 
-#- time: "Jan '12 -- Aug '12"
-#  title: "Stage Manager for *Legally Blonde*"
-#  comp: Everest Academy for the Arts
-#  loc: Wausau WI
-#  descr:
-#  - Coordinated and guided a cast and crew of 60.
-#  - Designed the logo for all production-related materials.
-#  - Managed both the technical crew and called their cues for the show.
+- time: "Spring & Fall 2011" #"Feb '11 -- Feb '12"
+  title: "Chair of Appropriations"
+  comp: Student Senate
+  loc: Cornell College
+  descr:
+  - Monitored and audited a $250,000 budget distributed over 50 student organizations.
+  - Coordinated a streamlined rewrite of the financial by-laws with both finance and executive committees.
+  # - Optimized old workflows using new technologies.
 
 #- time: "Aug '11 -- May '12"
 #  title: "IT Support Technician"
