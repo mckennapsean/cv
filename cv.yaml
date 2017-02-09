@@ -311,11 +311,11 @@ ipubs:
 presents:
 
 # poster presentations
-- title: "[s-CorrPlot: Encoding and Exploring Correlation](http://mckennapsean.com/projects/s-corrplot/poster.png)"
+- title: "[s-CorrPlot: Encoding and Exploring Correlation](http://mckennapsean.com/website-resources/posters/s-corrplot.png)"
   bibl: "S. McKenna, M. Meyer, C. Gregg, S. Gerber. *IEEE VIS: InfoVis*."
   year: 2014
 
-- title: "[Designing STAR: A Cyber Dashboard Prototype](http://mckennapsean.com/projects/cybersecurity-dashboard/poster.png)"
+- title: "[Designing STAR: A Cyber Dashboard Prototype](http://mckennapsean.com/website-resources/posters/cybersecurity-dashboard.png)"
   bibl: "S. McKenna. *International Symposium on Visualization for Cyber Security (VizSec)*."
   year: 2014
 
