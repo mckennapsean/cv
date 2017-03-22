@@ -265,11 +265,11 @@ aff:
 jpubs:
 
 - title: "[Visual Narrative Flow: Exploring Factors Shaping Data Visualization Story Reading Experiences](http://mckennapsean.com/projects/narrative-flow/)"
-  bibl: "S. McKenna, N. Henry Riche, B. Lee, J. Boy, M. Meyer. *Computer Graphics Forum (EuroVis '17)*, _to appear_."
+  bibl: "S. McKenna, N. Henry Riche, B. Lee, J. Boy, M. Meyer. *Computer Graphics Forum (EuroVis)*, _to appear_."
   year: 2017
 
 - title: "[BubbleNet: A Cyber Security Dashboard for Visualizing Patterns](http://mckennapsean.com/projects/bubble-net/)"
-  bibl: "S. McKenna, D. Staheli, C. Fulcher, M. Meyer. [*Computer Graphics Forum (EuroVis '17)*](http://onlinelibrary.wiley.com/doi/10.1111/cgf.12904/full), 35(3):281--290."
+  bibl: "S. McKenna, D. Staheli, C. Fulcher, M. Meyer. [*Computer Graphics Forum (EuroVis)*](http://onlinelibrary.wiley.com/doi/10.1111/cgf.12904/full), 35(3):281--290."
   year: 2016
 
 - title: "[s-CorrPlot: An Interactive Scatterplot for Exploring Correlation](http://mckennapsean.com/projects/s-corrplot/)"
@@ -277,7 +277,7 @@ jpubs:
   year: 2016
 
 - title: "[Design Activity Framework for Visualization Design](http://mckennapsean.com/projects/design-activity-framework/)"
-  bibl: "S. McKenna, D. Mazur, J. Agutter, M. Meyer. [*IEEE Transactions on Visualization and Computer Graphics (Proceedings of InfoVis)*](http://ieeexplore.ieee.org/abstract/document/6876000/), 20(12):2191--2200."
+  bibl: "S. McKenna, D. Mazur, J. Agutter, M. Meyer. [*IEEE Transactions on Visualization and Computer Graphics (InfoVis)*](http://ieeexplore.ieee.org/abstract/document/6876000/), 20(12):2191--2200."
   year: 2014
 
 
