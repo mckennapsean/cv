@@ -264,8 +264,12 @@ aff:
 # journal publications
 jpubs:
 
+- title: "[Visual Narrative Flow: Exploring Factors Shaping Data Visualization Story Reading Experiences](http://mckennapsean.com/projects/narrative-flow/)"
+  bibl: "S. McKenna, N. Henry Riche, B. Lee, J. Boy, M. Meyer. *Computer Graphics Forum (EuroVis '17)*, _to appear_."
+  year: 2017
+
 - title: "[BubbleNet: A Cyber Security Dashboard for Visualizing Patterns](http://mckennapsean.com/projects/bubble-net/)"
-  bibl: "S. McKenna, D. Staheli, C. Fulcher, M. Meyer. [*Computer Graphics Forum*](http://onlinelibrary.wiley.com/doi/10.1111/cgf.12904/full), 35(3):281--290."
+  bibl: "S. McKenna, D. Staheli, C. Fulcher, M. Meyer. [*Computer Graphics Forum (EuroVis '17)*](http://onlinelibrary.wiley.com/doi/10.1111/cgf.12904/full), 35(3):281--290."
   year: 2016
 
 - title: "[s-CorrPlot: An Interactive Scatterplot for Exploring Correlation](http://mckennapsean.com/projects/s-corrplot/)"
@@ -298,9 +302,6 @@ cpubs:
 
 # in-progress publications
 ipubs:
-
-- title: "Narrative Flow: Factors Shaping Data Story Consumption Experiences"
-  bibl: "S. McKenna, N.H. Riche, B. Lee, J. Boy, M. Meyer."
 
 - title: "Worksheets for Guiding Novice Students through the Visualization Design Process"
   bibl: "S. McKenna, A. Lex, M. Meyer."
