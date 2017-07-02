@@ -41,11 +41,10 @@ edu:
 
 tech:
   lang:
-  - Javascript (ES6, D3)
+  - Javascript + D3
   - HTML5 & CSS3
   - Python
   - Java
-  - C++
   - \LaTeX
   - SQL
   - R
